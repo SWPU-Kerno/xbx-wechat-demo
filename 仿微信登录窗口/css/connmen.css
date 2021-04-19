@@ -1,8 +1,12 @@
 body{
-    width:800px;
+    
     height: auto;
     margin: 0 auto;
     color: rgb(250, 246, 241);
+    
+        max-width: 375px;
+        margin:auto;
+    
 }
 .top{
    align-items:center ;
@@ -14,52 +18,136 @@ body{
 }
 .second{
     width: 100%;
-    height: 200px;
+    height: 150px;
     
 }
 .thrid{
     width: 100%;
-    height: 100px;
-    margin-top: 20px;
+    height: 75px;
+   /* margin-top: 20px;*/
     
 }
 .forth{
     width: 100%;
-    height: 100px;
-    margin-top: 20px;
+    height: 70px;
+    /*margin-top: 20px;*/
     
 }
 .fifth{
     width: 100%;
-    height: 100px;
+    height: 70px;
     
     
 }
 .sixth{
     width: 100%;
-    height: 100px;
+    height: 70px;
     
    
 }
 .seventh{
     width: 100%;
-    height: 100px;
+    height: 70px;
     
     
 }
 .eighth{
     width: 100%;
-    height: 100px;
-    margin-top: 20px;
+    height: 70px;
+    
     
 }
 .last{
     height: 300px;
     width: 100%;
-    background-color: gray;
+    background-color:rgb(206, 204, 204)
 }
 .front{
     height: 150px;
     width: 100%;
-    background-color: gray;
+    background-color:rgb(206, 204, 204)
+}
+.top span{
+    color: blanchedalmond;font-size: 30px;font-weight: 45px;float: right;
+}
+.top img{
+    height: 70px;
+    position: relative;
+    right: 8px;
+}
+.second #img1{
+    height:30px;float:right;position:relative;left:15px;
+}
+.second #img2{
+    height:30px;float:right;position: relative;bottom: 18px;
+    left: 15px;
+}
+.second #span1{
+    color: rgb(0, 0, 0);float: left;margin:30px 0 0 0;
+}
+.second #span2{
+    color: rgb(0, 0, 0);margin:20px 0 0 0;position: relative;top: 69px;right: 30px;
+}
+.second #img3{
+    height: 85px;margin: 20px;float: left;width: 85px;
+}
+.thrid .img1{
+    height: 40px;margin: 20px 0 0 10px;float: left;
+}
+.thrid .img2{
+    height:30px;float:right;position:relative;left:225px;bottom: 5px;
+}
+.thrid span{
+    color: rgb(0, 0, 0);float: left;margin:30px 0 0 0;position: relative;left: 23px;
+}
+.forth span{
+    color: rgb(0, 0, 0);float: left;margin:5px 0 0 0;position: relative;left: 20px;top: 25px;
+}
+.forth .img1{
+    height: 40px;float: left;margin: 20px 0 0 0px;
+}
+.forth .img2{
+    height:30px;float:right;position:relative;left:223px;bottom: 5px;
+}
+.forth hr{
+    position: relative;top: 68px;
+}
+.fifth span{
+    color: rgb(0, 0, 0);float: left;margin:17px 0 0 0;position: relative;left: 35px;top: 10px;
+}
+.fifth .img1{
+    height: 40px;float: left;margin: 20px 0 0 0px;position: relative;left: 10px;
+}
+.fifth .img2{
+    height:30px;float:right;position:relative;left:210px;bottom: 5px;
+}
+.fifth hr{
+    position: relative;top: 70px;
+}
+.sixth span{
+    color: rgb(0, 0, 0);float: left;margin:20px 0 0 0;position: relative;left: 25px;top: 10px;
+}
+.sixth .img1{
+    height: 40px;float: left;margin: 20px 0 0 10px;
+}
+.sixth .img2{
+    height:30px;float:right;position:relative;left:225px;bottom: 5px;
+}
+.seventh span{
+    color: rgb(0, 0, 0);float: left;margin:5px 0 0 0;position: relative;left: 26px;top: 20px;
+}
+.seventh .img1{
+    height: 40px;float: left;margin: 20px 0 0 10px;
+}
+.seventh .img2{
+    height:30px;float:right;position:relative;left:225px;bottom: 5px;
+}
+.eighth .img1{
+    height: 40px;float: left;margin: 20px 0 0 10px;
+}
+.eighth .img2{
+    height:30px;float:right;position:relative;left:223px;bottom: 5px;
+}
+.eighth span{
+    color: rgb(0, 0, 0);float: left;margin:5px 0 0 0;position: relative;left: 27px;top: 20px;
 }
