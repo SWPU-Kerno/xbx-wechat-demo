@@ -91,8 +91,11 @@ body{
 .second #img3{
     height: 85px;margin: 20px;float: left;width: 85px;
 }
-.thrid .img1{
+.thrid i{
     height: 40px;margin: 20px 0 0 10px;float: left;
+    font-size: 40px;
+    position: relative;
+    bottom: 3px;
 }
 .thrid .img2{
     height:30px;float:right;position:relative;left:225px;bottom: 5px;
@@ -101,10 +104,14 @@ body{
     color: rgb(0, 0, 0);float: left;margin:30px 0 0 0;position: relative;left: 23px;
 }
 .forth span{
-    color: rgb(0, 0, 0);float: left;margin:5px 0 0 0;position: relative;left: 20px;top: 25px;
+    color: rgb(0, 0, 0);float: left;margin:5px 0 0 0;position: relative;left: 36px;top: 25px;
 }
-.forth .img1{
+.forth i{
     height: 40px;float: left;margin: 20px 0 0 0px;
+    font-size: 40px;
+    position: relative;
+    bottom: 1px;
+    left: 10px;
 }
 .forth .img2{
     height:30px;float:right;position:relative;left:223px;bottom: 5px;
@@ -115,8 +122,11 @@ body{
 .fifth span{
     color: rgb(0, 0, 0);float: left;margin:17px 0 0 0;position: relative;left: 35px;top: 10px;
 }
-.fifth .img1{
+.fifth i{
     height: 40px;float: left;margin: 20px 0 0 0px;position: relative;left: 10px;
+    font-size: 40px;
+    position: relative;
+    bottom: 7px;
 }
 .fifth .img2{
     height:30px;float:right;position:relative;left:210px;bottom: 5px;
@@ -127,8 +137,11 @@ body{
 .sixth span{
     color: rgb(0, 0, 0);float: left;margin:20px 0 0 0;position: relative;left: 25px;top: 10px;
 }
-.sixth .img1{
+.sixth i{
     height: 40px;float: left;margin: 20px 0 0 10px;
+    font-size: 40px;
+    position: relative;
+    bottom: 7px;
 }
 .sixth .img2{
     height:30px;float:right;position:relative;left:225px;bottom: 5px;
@@ -136,14 +149,21 @@ body{
 .seventh span{
     color: rgb(0, 0, 0);float: left;margin:5px 0 0 0;position: relative;left: 26px;top: 20px;
 }
-.seventh .img1{
+.seventh i{
     height: 40px;float: left;margin: 20px 0 0 10px;
+    font-size: 40px;
+    position: relative;
+    bottom: 7px;
 }
+
 .seventh .img2{
     height:30px;float:right;position:relative;left:225px;bottom: 5px;
 }
-.eighth .img1{
+.eighth i{
     height: 40px;float: left;margin: 20px 0 0 10px;
+    font-size: 40px;
+    position: relative;
+    bottom: 7px;
 }
 .eighth .img2{
     height:30px;float:right;position:relative;left:223px;bottom: 5px;
